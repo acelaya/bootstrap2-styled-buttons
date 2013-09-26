@@ -1,0 +1,2 @@
+Include bootstrap-buttons.css or bootstrap-buttons.min.css in your Bootstrap 3 project to get the old styled buttons.
+They are compatible with the new Bootstrap 3 buttons styles and have the new padding, to fit with other form controls.
