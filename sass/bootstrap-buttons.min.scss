@@ -1,0 +1,30 @@
+/**
+ * Bootstrap buttons
+ */
+@import "base";
+
+// Common styles
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger , .btn-inverse, .btn-old-primary {
+
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-repeat: repeat-x;
+  @include box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075));
+
+  &:focus, &:hover {
+
+    text-decoration: none;
+    background-position: 0 -15px;
+    @include transition(background-position 0.1s linear);
+
+  }
+
+}
+
+@import "default-button";
+@import "primary-button";
+@import "success-button";
+@import "info-button";
+@import "warning-button";
+@import "danger-button";
+@import "inverse-button";
+@import "old-primary-button";

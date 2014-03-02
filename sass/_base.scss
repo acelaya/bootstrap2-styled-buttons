@@ -1,0 +1,25 @@
+// Imports
+@import "compass/css3/transition";
+@import "compass/css3/images";
+@import "compass/css3/box-shadow";
+
+/**
+ * Generates common button styles
+ */
+@mixin button($start-color, $end-color, $border-color) {
+
+    border-color: $border-color;
+    @include background-image(linear-gradient(to bottom, $start-color 0, $end-color 100%));
+    @include filter-gradient($start-color, $end-color);
+
+
+    &:hover, &:focus, &:active, &.active {
+      background-color: $end-color;
+
+      &[disabled], &.disabled {
+        background-color: $end-color;
+      }
+
+    }
+
+}

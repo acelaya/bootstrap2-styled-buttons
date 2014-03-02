@@ -1,0 +1,11 @@
+$old-primary-start-color: #0088cc;
+$old-primary-end-color: #0044cc;
+$old-primary-border-color: #024ee5;
+
+// Success button
+.btn-old-primary {
+
+  color: #fff !important;
+  @include button($old-primary-start-color, $old-primary-end-color, $old-primary-border-color);
+
+}

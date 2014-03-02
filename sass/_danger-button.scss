@@ -1,0 +1,10 @@
+$danger-start-color: #D9534F;
+$danger-end-color: #C9302C;
+$danger-border-color: #C12E2A;
+
+// Warning button
+.btn-danger {
+
+  @include button($danger-start-color, $danger-end-color, $danger-border-color);
+
+}
