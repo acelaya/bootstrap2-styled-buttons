@@ -1,0 +1,10 @@
+$success-start-color: #5cb85c;
+$success-end-color: #449d44;
+$success-border-color: #419641;
+
+// Success button
+.btn-success {
+
+  @include button($success-start-color, $success-end-color, $success-border-color);
+
+}

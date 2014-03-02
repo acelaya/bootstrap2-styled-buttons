@@ -1,0 +1,10 @@
+$primary-start-color: #428bca;
+$primary-end-color: #3071a9;
+$primary-border-color: #2D6CA2;
+
+// Primary button
+.btn-primary {
+
+  @include button($primary-start-color, $primary-end-color, $primary-border-color);
+
+}

@@ -1,0 +1,11 @@
+$default-start-color: #FFF;
+$default-end-color: #E6E6E6;
+$default-border-color: #CCC;
+
+// Default button
+.btn-default {
+
+  text-shadow: 0 1px 0 $default-start-color;
+  @include button($default-start-color, $default-end-color, $default-border-color);
+
+}

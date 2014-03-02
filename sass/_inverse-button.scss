@@ -1,0 +1,11 @@
+$inverse-start-color: #444;
+$inverse-end-color: #222;
+$inverse-border-color: #111;
+
+// Success button
+.btn-inverse {
+
+  color: #fff !important;
+  @include button($inverse-start-color, $inverse-end-color, $inverse-border-color);
+
+}

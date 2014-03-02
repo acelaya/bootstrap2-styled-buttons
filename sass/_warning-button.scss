@@ -1,0 +1,10 @@
+$warning-start-color: #F0AD4E;
+$warning-end-color: #EC971F;
+$warning-border-color: #EB9316;
+
+// Warning button
+.btn-warning {
+
+  @include button($warning-start-color, $warning-end-color, $warning-border-color);
+
+}

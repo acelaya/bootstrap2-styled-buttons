@@ -1,0 +1,10 @@
+$info-start-color: #5BC0DE;
+$info-end-color: #31B0D5;
+$info-border-color: #2AABD2;
+
+// Info button
+.btn-info {
+
+  @include button($info-start-color, $info-end-color, $info-border-color);
+
+}
