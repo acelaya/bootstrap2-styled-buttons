@@ -8,9 +8,8 @@
  */
 @mixin button($start-color, $end-color, $border-color) {
 
-    text-shadow: 0 1px 0 $start-color;
     border-color: $border-color;
-    @include background(linear-gradient(to bottom, $start-color 0, $end-color 100%));
+    @include background-image(linear-gradient(to bottom, $start-color 0, $end-color 100%));
     @include filter-gradient($start-color, $end-color);
 
     &:hover, &:focus {
