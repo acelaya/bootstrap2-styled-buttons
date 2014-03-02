@@ -12,8 +12,14 @@
     @include background-image(linear-gradient(to bottom, $start-color 0, $end-color 100%));
     @include filter-gradient($start-color, $end-color);
 
-    &:hover, &:focus {
+
+    &:hover, &:focus, &:active, &.active {
       background-color: $end-color;
+
+      &[disabled], &.disabled {
+        background-color: $end-color;
+      }
+
     }
 
 }
