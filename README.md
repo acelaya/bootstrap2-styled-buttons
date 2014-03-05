@@ -2,7 +2,7 @@
 
 This little stylesheet reverts new Bootstrap 3 button styles to the old ones, including `.btn-inverse` again.
 
-The `.btn-primary` style is based on the [Bootstrap 3 theme](http://getbootstrap.com/examples/theme/), but a '.btn-old-primary' was included with the old shiny blue primary button.
+The `.btn-primary` style is based on the [Bootstrap 3 theme](http://getbootstrap.com/examples/theme/), but a `.btn-old-primary` was included with the old shiny blue primary button.
 
 They are compatible with the new Bootstrap 3 buttons styles and have the new padding, to fit with other form controls.
 
