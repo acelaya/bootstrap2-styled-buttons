@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap2-styled-buttons",
+  "version": "2.0.1",
+  "description": "Bootstrap 3 buttons with Bootstrap 2 style",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acelaya/bootstrap2-styled-buttons"
+  },
+  "keywords": [
+    "bootstrap3",
+    "sass",
+    "css3",
+    "bootstrap2",
+    "bootstrap"
+  ],
+  "author": "Alejandro Celaya Alastrué",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "956e44f43a09a28fb8964f91be695cf75994f23b",
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-sass": "0.7.3"
+    }
+}
