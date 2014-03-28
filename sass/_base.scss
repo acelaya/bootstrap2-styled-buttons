@@ -13,10 +13,14 @@
     @include filter-gradient($start-color, $end-color);
 
 
-    &:hover, &:focus, &:active, &.active {
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
       background-color: $end-color;
 
-      &[disabled], &.disabled {
+      &[disabled],
+      &.disabled {
         background-color: $end-color;
       }
 
