@@ -4,14 +4,35 @@
 /**
  * Generates common button styles
  */
-.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger, .btn-inverse, .btn-old-primary {
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger,
+.btn-inverse,
+.btn-old-primary {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
   background-repeat: repeat-x;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-.btn-default:focus, .btn-default:hover, .btn-primary:focus, .btn-primary:hover, .btn-success:focus, .btn-success:hover, .btn-info:focus, .btn-info:hover, .btn-warning:focus, .btn-warning:hover, .btn-danger:focus, .btn-danger:hover, .btn-inverse:focus, .btn-inverse:hover, .btn-old-primary:focus, .btn-old-primary:hover {
+.btn-default:focus, .btn-default:hover,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-success:focus,
+.btn-success:hover,
+.btn-info:focus,
+.btn-info:hover,
+.btn-warning:focus,
+.btn-warning:hover,
+.btn-danger:focus,
+.btn-danger:hover,
+.btn-inverse:focus,
+.btn-inverse:hover,
+.btn-old-primary:focus,
+.btn-old-primary:hover {
   text-decoration: none;
   background-position: 0 -15px;
   -webkit-transition: background-position 0.1s linear;
