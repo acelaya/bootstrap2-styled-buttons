@@ -2,7 +2,15 @@ language: node_js
 
 node_js:
   - "0.8"
+  - "0.9"
+  - "0.10"
+  - "0.11"
 
-before_install: npm install -g grunt-cli
+before_install: 
+  - npm install -g grunt-cli
+  - gem install sass
+  - gem install compass
+  
 install: npm install
+
 before_script: grunt
