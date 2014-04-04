@@ -1,5 +1,9 @@
 ## Introduction
 
+Master: [![Build Status](https://travis-ci.org/acelaya/bootstrap2-styled-buttons.svg?branch=master)](https://travis-ci.org/acelaya/bootstrap2-styled-buttons)
+
+Develop: [![Build Status](https://travis-ci.org/acelaya/bootstrap2-styled-buttons.svg?branch=develop)](https://travis-ci.org/acelaya/bootstrap2-styled-buttons)
+
 This little stylesheet reverts new Bootstrap 3 button styles to the old ones, including `.btn-inverse` again.
 
 The `.btn-primary` style is based on the [Bootstrap 3 theme](http://getbootstrap.com/examples/theme/), but a `.btn-old-primary` was included with the old shiny blue primary button.
