@@ -5,9 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-buttons.min.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <style type="text/css">
+      * {outline: none !important;}
+      .group {text-align: center; margin-bottom: 15px;}
+      .group:last-child {margin-bottom: 0;}
+      .original-box {-webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box;}
+      article {margin-bottom: 20px;}
+    </style>
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,9 +29,10 @@
   <body>
     <header>
       <div class="inner">
-        <h1>Bootstrap2-styled-buttons</h1>
-        <h2>Bootstrap 3 buttons with Bootstrap 2 style</h2>
-        <a href="https://github.com/acelaya/bootstrap2-styled-buttons" class="button"><small>View project on</small>GitHub</a>
+        <h2 style="font-size: 36px;">Bootstrap 3 buttons with Bootstrap 2 style</h2>
+        <a href="https://github.com/acelaya/bootstrap2-styled-buttons" class="button original-box">
+            <small>View project on</small>GitHub
+        </a>
       </div>
     </header>
 
@@ -31,9 +42,7 @@
           <h2>
 <a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h2>
 
-<p>Master: <a href="https://travis-ci.org/acelaya/bootstrap2-styled-buttons"><img src="https://travis-ci.org/acelaya/bootstrap2-styled-buttons.svg?branch=master" alt="Build Status"></a></p>
-
-<p>Develop: <a href="https://travis-ci.org/acelaya/bootstrap2-styled-buttons"><img src="https://travis-ci.org/acelaya/bootstrap2-styled-buttons.svg?branch=develop" alt="Build Status"></a></p>
+<p><a href="https://travis-ci.org/acelaya/bootstrap2-styled-buttons"><img src="https://travis-ci.org/acelaya/bootstrap2-styled-buttons.svg?branch=master" alt="Build Status"></a></p>
 
 <p>This little stylesheet reverts new Bootstrap 3 button styles to the old ones, including <code>.btn-inverse</code> again.</p>
 
@@ -49,6 +58,83 @@
 <p>Include one of the files located in the css folder (bootstrap-buttons.css or bootstrap-buttons.min.css) in your Bootstrap 3 project after bootstrap stylesheets to get the old styled buttons.</p>
 
 <h2>
+<a name="demo" class="anchor" href="#demo"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<p>This is how the buttons will look like</p>
+
+<article>
+    <section class="group">
+        <span class="btn btn-default">Default</span>
+        <span class="btn btn-primary">Primary</span>
+        <span class="btn btn-info">Info</span>
+        <span class="btn btn-success">Success</span>
+        <span class="btn btn-danger">Danger</span>
+        <span class="btn btn-inverse">Inverse</span>
+        <span class="btn btn-old-primary">Old primary</span>
+    </section>
+
+    <section class="group">
+        <span class="btn btn-default active">Default</span>
+        <span class="btn btn-primary active">Primary</span>
+        <span class="btn btn-info active">Info</span>
+        <span class="btn btn-success active">Success</span>
+        <span class="btn btn-danger active">Danger</span>
+        <span class="btn btn-inverse active">Inverse</span>
+        <span class="btn btn-old-primary active">Old primary</span>
+    </section>
+
+    <section class="group">
+        <span class="btn btn-default disabled">Default</span>
+        <span class="btn btn-primary disabled">Primary</span>
+        <span class="btn btn-info disabled">Info</span>
+        <span class="btn btn-success disabled">Success</span>
+        <span class="btn btn-danger disabled">Danger</span>
+        <span class="btn btn-inverse disabled">Inverse</span>
+        <span class="btn btn-old-primary disabled">Old primary</span>
+    </section>
+
+    <section class="group">
+        <span class="btn btn-default btn-lg">Default</span>
+        <span class="btn btn-primary btn-lg">Primary</span>
+        <span class="btn btn-info btn-lg">Info</span>
+        <span class="btn btn-success btn-lg">Success</span>
+        <span class="btn btn-danger btn-lg">Danger</span>
+        <span class="btn btn-inverse btn-lg">Inverse</span>
+        <span class="btn btn-old-primary btn-lg">Old primary</span>
+    </section>
+
+    <section class="group">
+        <span class="btn btn-default btn-sm">Default</span>
+        <span class="btn btn-primary btn-sm">Primary</span>
+        <span class="btn btn-info btn-sm">Info</span>
+        <span class="btn btn-success btn-sm">Success</span>
+        <span class="btn btn-danger btn-sm">Danger</span>
+        <span class="btn btn-inverse btn-sm">Inverse</span>
+        <span class="btn btn-old-primary btn-sm">Old primary</span>
+    </section>
+
+    <section class="group">
+        <span class="btn btn-default btn-xs">Default</span>
+        <span class="btn btn-primary btn-xs">Primary</span>
+        <span class="btn btn-info btn-xs">Info</span>
+        <span class="btn btn-success btn-xs">Success</span>
+        <span class="btn btn-danger btn-xs">Danger</span>
+        <span class="btn btn-inverse btn-xs">Inverse</span>
+        <span class="btn btn-old-primary btn-xs">Old primary</span>
+    </section>
+
+    <section class="group">
+        <span class="btn btn-default btn-block">Default</span>
+        <span class="btn btn-primary btn-block">Primary</span>
+        <span class="btn btn-info btn-block">Info</span>
+        <span class="btn btn-success btn-block">Success</span>
+        <span class="btn btn-danger btn-block">Danger</span>
+        <span class="btn btn-inverse btn-block">Inverse</span>
+        <span class="btn btn-old-primary btn-block">Old primary</span>
+    </section>
+</article>
+
+<h2>
 <a name="how-to-build" class="anchor" href="#how-to-build"><span class="octicon octicon-link"></span></a>How to build</h2>
 
 <p>The building process has been automated by using <a href="http://gruntjs.com/">Grunt</a>. Take a look at its <a href="http://gruntjs.com/getting-started">documentation</a> for more information.</p>
@@ -59,11 +145,11 @@
         </section>
 
         <aside id="sidebar">
-          <a href="https://github.com/acelaya/bootstrap2-styled-buttons/zipball/master" class="button">
+          <a href="https://github.com/acelaya/bootstrap2-styled-buttons/zipball/master" class="button original-box">
             <small>Download</small>
             .zip file
           </a>
-          <a href="https://github.com/acelaya/bootstrap2-styled-buttons/tarball/master" class="button">
+          <a href="https://github.com/acelaya/bootstrap2-styled-buttons/tarball/master" class="button original-box">
             <small>Download</small>
             .tar.gz file
           </a>
