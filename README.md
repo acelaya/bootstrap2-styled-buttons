@@ -1,8 +1,6 @@
 ## Introduction
 
-Master: [![Build Status](https://travis-ci.org/acelaya/bootstrap2-styled-buttons.svg?branch=master)](https://travis-ci.org/acelaya/bootstrap2-styled-buttons)
-
-Develop: [![Build Status](https://travis-ci.org/acelaya/bootstrap2-styled-buttons.svg?branch=develop)](https://travis-ci.org/acelaya/bootstrap2-styled-buttons)
+[![Build Status](https://travis-ci.org/acelaya/bootstrap2-styled-buttons.svg?branch=master)](https://travis-ci.org/acelaya/bootstrap2-styled-buttons)
 
 This little stylesheet reverts new Bootstrap 3 button styles to the old ones, including `.btn-inverse` again.
 
@@ -15,6 +13,8 @@ Disabled, focused and active styles are supported, as well as `.btn-lg`, `.btn-s
 ## How to use
 
 Include one of the files located in the css folder (bootstrap-buttons.css or bootstrap-buttons.min.css) in your Bootstrap 3 project after bootstrap stylesheets to get the old styled buttons.
+
+You can see this in action [here](http://acelaya.github.io/bootstrap2-styled-buttons).
 
 ## How to build
 
