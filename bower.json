@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap2-styled-buttons",
+  "version": "2.0.4",
+  "homepage": "https://github.com/acelaya/bootstrap2-styled-buttons",
+  "authors": [
+    "Alejandro Celaya Alastrué <alejandro@alejandrocelaya.com>"
+  ],
+  "description": "Bootstrap 3 buttons with Bootstrap 2 style",
+  "main": "css/bootstrap-buttons.min.css",
+  "keywords": [
+    "bootstrap3",
+    "sass",
+    "css3",
+    "bootstrap2",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

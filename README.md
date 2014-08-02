@@ -14,6 +14,8 @@ Disabled, focused and active styles are supported, as well as `.btn-lg`, `.btn-s
 
 Include one of the files located in the css folder (bootstrap-buttons.css or bootstrap-buttons.min.css) in your Bootstrap 3 project after bootstrap stylesheets to get the old styled buttons.
 
+Alternatively you can install this package with [bower](http://bower.io/) by running `bower install bootstrap2-styled-buttons`
+
 You can see this in action [here](http://acelaya.github.io/bootstrap2-styled-buttons).
 
 ## How to build
