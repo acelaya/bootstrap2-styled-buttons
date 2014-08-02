@@ -6,8 +6,6 @@ branches:
     - develop
 
 node_js:
-  - "0.8"
-  - "0.9"
   - "0.10"
   - "0.11"
 
